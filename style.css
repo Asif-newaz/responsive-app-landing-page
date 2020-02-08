@@ -86,6 +86,8 @@ main {
     font-weight: 700;
 }
 
+
+
 figure {
     margin: auto;
 }
@@ -123,6 +125,12 @@ figure img {
         text-decoration: none;
     }
 
+    nav ul li a:hover {
+        font-size: 1.5em;
+        transition: linear 500ms;
+        color: #FFDB37;
+    }
+
     .highlight {
         border: 3px solid #FFDB37;
         border-radius: 50px;
@@ -153,6 +161,11 @@ figure img {
 
     .hero a {
         background: #AE79C4;
+    }
+
+    .hero a:hover {
+        background-color: rgb(30, 2, 44);
+        transition: linear 500ms;
     }
 
     figure img {
