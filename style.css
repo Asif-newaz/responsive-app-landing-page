@@ -23,6 +23,20 @@ header {
     text-align: center;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-btn span {
+    cursor: pointer;
+    display: block;
+    margin: 5px 0;
+    height: 5px;
+    width: 20px;
+    background-color: #FFDB37;
+}
+
 #chatr-logo {
     width: 75px;
     cursor: pointer;
