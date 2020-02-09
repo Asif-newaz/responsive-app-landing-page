@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
-
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -86,8 +87,6 @@ main {
     font-weight: 700;
 }
 
-
-
 figure {
     margin: auto;
 }
@@ -104,70 +103,55 @@ figure img {
         flex-flow: wrap;
         align-items: center;
     }
-
     nav {
         margin: 0;
     }
-
     nav ul {
         margin: 0;
         padding: 0;
         display: flex;
     }
-
     nav ul li {
         padding: 0.5em 2em;
     }
-
     nav ul li a {
         font-size: 1.375em;
         font-weight: 700;
         text-decoration: none;
     }
-
     nav ul li a:hover {
-        font-size: 1.5em;
         transition: linear 500ms;
         color: #FFDB37;
     }
-
     .highlight {
         border: 3px solid #FFDB37;
         border-radius: 50px;
     }
-
     main {
         flex-flow: row;
     }
-
     .hero {
         text-align: left;
     }
-
     .hero h1 {
         font-size: 4em;
     }
-
     .hero p::before {
         margin: 1em 0;
         text-align: left;
     }
-
     .hero p {
         font-size: 1.3em;
         padding: 0;
         margin: 0 0 3em 0;
     }
-
     .hero a {
         background: #AE79C4;
     }
-
     .hero a:hover {
         background-color: rgb(30, 2, 44);
         transition: linear 500ms;
     }
-
     figure img {
         width: 300px;
         margin: 0;
