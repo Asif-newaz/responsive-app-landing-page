@@ -13,6 +13,16 @@ body {
     padding: 0;
 }
 
+/* Hide and Show content */
+
+.desktop {
+    display: none;
+}
+
+.mobile-nav-bar {
+    display: block;
+}
+
 .container {
     max-width: 1005px;
     margin: 0 auto;
@@ -118,6 +128,14 @@ figure img {
         justify-content: space-between;
         flex-flow: wrap;
         align-items: center;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile-nav-bar {
+        display: none;
     }
 
     nav {
