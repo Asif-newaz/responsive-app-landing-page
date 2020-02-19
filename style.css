@@ -31,6 +31,19 @@ body {
     display: none;
 }
 
+.click-bar {
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+
+.bar {
+    width: 30px;
+    border-top: 4px solid yellow;
+    margin: 5px 0;
+}
+
 .mobile-nav-bar ul li a {
     color: #000000;
     font-size: 1.8em;
