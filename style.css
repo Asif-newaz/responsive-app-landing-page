@@ -20,7 +20,26 @@ body {
 }
 
 .mobile-nav-bar {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    color: #000000;
+    display: none;
+}
+
+.mobile-nav-bar ul li a {
+    color: #000000;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.mobile-nav-bar ul li {
+    padding: 10px 0 10px 0;
+    text-align: center;
 }
 
 .container {
