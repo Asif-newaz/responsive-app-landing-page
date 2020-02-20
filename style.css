@@ -32,9 +32,10 @@ body {
 }
 
 .click-bar {
+    display: block;
     cursor: pointer;
     position: absolute;
-    top: 35px;
+    top: 40px;
     right: 15px;
 }
 
@@ -167,6 +168,10 @@ figure img {
     }
 
     .mobile-nav-bar {
+        display: none;
+    }
+
+    .click-bar {
         display: none;
     }
 
