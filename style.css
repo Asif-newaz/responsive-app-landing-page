@@ -84,6 +84,7 @@ header {
 #chatr-logo {
     width: 75px;
     cursor: pointer;
+    margin-left: 15px;
 }
 
 nav ul {
@@ -174,6 +175,10 @@ figure img {
 
     .click-bar {
         display: none;
+    }
+
+    #chatr-logo {
+        margin-left: 0;
     }
 
     nav {
