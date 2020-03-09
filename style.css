@@ -127,7 +127,7 @@ main {
     font-weight: 600;
     max-width: 500px;
     line-height: 1.8em;
-    margin: 2.5em auto;
+    margin: 2.5em 1.5em;
 }
 
 .hero p::before {
